@@ -1,1 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    height: 100%;
+    z-index:-1;
+}
+
+.background{
+    transform: translateZ(-40px) scale(5);
+}
+
+.foreground{
+    transform: translateZ(-30px) scale(4);
+}
+
+.background, .foreground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    object-fit: cover;
+} 
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 12rem;
+    font-size: 7rem;
+    color: rgb(252, 252, 252);
+    text-shadow: 0 0 10px;
+}
+
+section{
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    /* padding: 5rem; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.secheading{
+    font-size: 5rem;
+    padding: 0 15rem;
+}
+
+.desc{
+    color:black;
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top:50%;
+    left:50%;
+
+}
+
+.text{
+    font-size:1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.bg1{
+    background-image: url(/web_development/projects/Parallax_website/images/biking.jpg);
+}
+
+.bg2{
+    background-image:  url(/web_development/projects/Parallax_website/images/paragliding.jpg);
+}
+
+.bg3{
+    background-image: url(/web_development/projects/Parallax_website/images/surfing.jpg);
+}
+
+
+
 
