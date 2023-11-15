@@ -88,15 +88,15 @@ section{
 
 
 .bg1{
-    background-image: url(/web_development/projects/Parallax_website/images/biking.jpg);
+    background-image: url(/images/biking.jpg);
 }
 
 .bg2{
-    background-image:  url(/web_development/projects/Parallax_website/images/paragliding.jpg);
+    background-image:  url(/images/paragliding.jpg);
 }
 
 .bg3{
-    background-image: url(/web_development/projects/Parallax_website/images/surfing.jpg);
+    background-image: url(/images/surfing.jpg);
 }
 
 
